@@ -1,0 +1,189 @@
+@charset "UTF-8";
+.fl {
+  float: left; }
+
+#safe_warm {
+  height: 25px;
+  line-height: 25px;
+  background: #ffffc7;
+  border: 1px solid #ffd5ab;
+  display: none; }
+
+#safe_warm > .safe_warm_con {
+  width: 1190px;
+  margin: 0 auto;
+  height: 25px;
+  text-align: center;
+  font-size: 12px;
+  color: #d60107;
+  position: relative; }
+
+#safe_warm > .safe_warm_con > a {
+  color: #d60107; }
+
+#safe_warm > .safe_warm_con > a:hover {
+  text-decoration: underline; }
+
+#safe_warm > .safe_warm_con > .icon_x {
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/图片/close_ico.png);
+  background-position: -20px 0;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  cursor: pointer; }
+
+#top {
+  height: 37px;
+  background: #f1f1f1; }
+
+#top .top_1 {
+  width: 1190px;
+  height: 37px;
+  margin: 0 auto; }
+
+#top > .top_1 > .txt_1 {
+  padding-left: 5px;
+  font-size: 12px;
+  float: left;
+  position: relative;
+  height: 37px;
+  line-height: 37px; }
+
+#top .top_1 .txt_1 .province {
+  width: 282px;
+  height: 341px;
+  position: absolute;
+  display: none;
+  left: 5px;
+  top: 37px;
+  background: white; }
+  #top .top_1 .txt_1 .province li {
+    line-height: 20px; }
+    #top .top_1 .txt_1 .province li a {
+      color: gray; }
+
+#top > .top_1 > .txt_2 {
+  float: right;
+  height: 37px; }
+
+#top > .top_1 > .txt_2 > li {
+  float: left;
+  padding-top: 12px; }
+
+.txt_2 li div a {
+  font-size: 12px;
+  display: block;
+  float: left;
+  line-height: 12px;
+  height: 12px;
+  padding: 0 5px; }
+
+.txt_2 li div .dl {
+  color: red; }
+
+#top > .top_1 > .txt_2 > li > a {
+  display: inline;
+  float: left;
+  border-left: 1px solid #e0e0e0;
+  padding: 0 9px;
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
+  color: #5e5e5e; }
+
+#top > .top_1 > .txt_2 > li a:hover {
+  text-decoration: underline; }
+
+#top > .top_1 > .txt_2 > li:last-child > a {
+  padding-right: 0; }
+
+.dd {
+  position: relative; }
+  .dd ul {
+    position: absolute;
+    top: 33px;
+    left: 9px;
+    width: 150px;
+    height: 300px;
+    background: white;
+    display: none; }
+    .dd ul li a {
+      font-size: 12px;
+      color: gray; }
+
+#ad {
+  height: 60px; }
+  #ad .ad_con {
+    width: 1190px;
+    height: 60px;
+    margin: 0 auto; }
+    #ad .ad_con a {
+      display: block;
+      width: 1190px;
+      height: 60px;
+      background: url(../img/图片/1513667902285179.jpg); }
+
+#logo {
+  height: 131px;
+  background: greenyellow; }
+  #logo .logo_con {
+    width: 1190px;
+    height: 131px;
+    margin: 0 auto; }
+    #logo .logo_con div.fl {
+      float: left; }
+    #logo .logo_con .logo_con_left {
+      width: 180px; }
+      #logo .logo_con .logo_con_left a {
+        display: block;
+        width: 180px;
+        height: 131px;
+        background: url(../img/图片/logo_01.png) no-repeat center; }
+    #logo .logo_con .logo_con_center {
+      width: 645px;
+      height: 97px;
+      background: chocolate;
+      padding-top: 34px;
+      padding-left: 105px; }
+      #logo .logo_con .logo_con_center .jsp {
+        width: 550px;
+        height: 45px;
+        position: relative; }
+        #logo .logo_con .logo_con_center .jsp #search {
+          width: 445px;
+          height: 43px;
+          padding-left: 5px;
+          outline: none;
+          border: 0;
+          border: 1px solid #FFFFC7; }
+        #logo .logo_con .logo_con_center .jsp #btn {
+          width: 82px;
+          height: 45px;
+          outline: none;
+          border: 0;
+          border: 1px solid #FFFFC7;
+          background: url(../img/图片/search.png) no-repeat center;
+          cursor: pointer; }
+        #logo .logo_con .logo_con_center .jsp .jsp_con {
+          position: absolute;
+          top: 45px;
+          left: 2px;
+          background: white;
+          width: 448px;
+          border: 1px solid #FFFFC7;
+          border-top: 0;
+          display: none; }
+          #logo .logo_con .logo_con_center .jsp .jsp_con li {
+            font-size: 18px;
+            line-height: 32px;
+            height: 32px;
+            padding-left: 5px; }
+          #logo .logo_con .logo_con_center .jsp .jsp_con li:hover {
+            background: skyblue;
+            cursor: pointer; }
+    #logo .logo_con .logo_con_right {
+      width: 260px;
+      height: 131px;
+      background: lavender; }
